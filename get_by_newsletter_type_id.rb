@@ -3,7 +3,7 @@ class GetByNewsletterTypeId
   attr_reader :id
 
   def initialize(id)
-    @id = id
+     @id = id
   end
 
   def to_xml

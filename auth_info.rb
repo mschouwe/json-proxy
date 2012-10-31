@@ -10,7 +10,7 @@ class AuthInfo
   end
 
   def to_s
-    "AuthInfo : #{@client} #{@username} #{@password}"
+     "AuthInfo : #{@client} #{@username} #{@password}"
   end
 
   def to_xml
